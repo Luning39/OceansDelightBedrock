@@ -1,0 +1,72 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "oceansdelight:baked_tentacle_on_a_stick": {
+      "textures": "textures/items/baked_tentacle_on_a_stick"
+    },
+    "oceansdelight:guardian_soup": {
+      "textures": "textures/items/bowl_of_guardian_soup"
+    },
+    "oceansdelight:braised_sea_pickle": {
+      "textures": "textures/items/braised_sea_pickle"
+    },
+    "oceansdelight:cabbage_wrapped_elder_guardian": {
+      "textures": "textures/items/cabbage_wrapped_elder_guardian"
+    },
+    "oceansdelight:cooked_elder_guardian_slice": {
+      "textures": "textures/items/cooked_elder_guardian_slice"
+    },
+    "oceansdelight:cooked_guardian_tail": {
+      "textures": "textures/items/cooked_guardian_tail"
+    },
+    "oceansdelight:cooked_stuffed_cod": {
+      "textures": "textures/items/cooked_stuffed_cod"
+    },
+    "oceansdelight:cut_tentacles": {
+      "textures": "textures/items/cut_tentacles"
+    },
+    "oceansdelight:elder_guardian_roll": {
+      "textures": "textures/items/elder_guardian_roll"
+    },
+    "oceansdelight:elder_guardian_slab": {
+      "textures": "textures/items/elder_guardian_slab"
+    },
+    "oceansdelight:elder_guardian_slice": {
+      "textures": "textures/items/elder_guardian_slice"
+    },
+    "oceansdelight:fugu_roll": {
+      "textures": "textures/items/fugu_roll"
+    },
+    "oceansdelight:fugu_slice": {
+      "textures": "textures/items/fugu_slice"
+    },
+    "oceansdelight:guardian": {
+      "textures": "textures/items/guardian"
+    },
+    "oceansdelight:guardian_soup_block": {
+      "textures": "textures/items/guardian_soup"
+    },
+    "oceansdelight:guardian_tail": {
+      "textures": "textures/items/guardian_tail"
+    },
+    "oceansdelight:honey_fried_kelp": {
+      "textures": "textures/items/honey_fried_kelp"
+    },
+    "oceansdelight:seagrass_salad": {
+      "textures": "textures/items/seagrass_salad"
+    },
+    "oceansdelight:squid_rings": {
+      "textures": "textures/items/squid_rings"
+    },
+    "oceansdelight:stuffed_cod": {
+      "textures": "textures/items/stuffed_cod"
+    },
+    "oceansdelight:tentacle_on_a_stick": {
+      "textures": "textures/items/tentacle_on_a_stick"
+    },
+    "oceansdelight:tentacles": {
+      "textures": "textures/items/tentacles"
+    }
+  }
+}

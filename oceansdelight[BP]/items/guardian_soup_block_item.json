@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:block_placer": {
+                "block": "oceansdelight:guardian_soup_block"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "oceansdelight:guardian_soup_block"
+                }
+            }
+        },
+        "description": {
+            "identifier": "oceansdelight:guardian_soup_block_item",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.miscFood"
+            }
+        }
+    }
+}

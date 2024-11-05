@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "oceansdelight:cooked_elder_guardian_slice"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "oceansdelight:elder_guardian_slice",
+        "output": "oceansdelight:cooked_elder_guardian_slice"
+    }
+}

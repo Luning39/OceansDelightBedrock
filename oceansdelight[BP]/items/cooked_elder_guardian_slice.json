@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "oceansdelight:cooked_elder_guardian_slice",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.cookedFood"
+            }
+        },
+        "components": {
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:max_stack_size": 64,
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation_modifier": 0.33,
+                "can_always_eat": false
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "oceansdelight:cooked_elder_guardian_slice"
+                }
+            }
+        }
+    }
+}

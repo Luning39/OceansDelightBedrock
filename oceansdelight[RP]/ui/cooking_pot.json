@@ -1,0 +1,134 @@
+{
+    "oceansdelight_recipe_part_0": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "guardian_soup@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/guardian",
+                                "$cell1": "textures/items/onion",
+                                "$cell2": "textures/items/egg",
+                                "$cell3": "textures/items/egg",
+                                "$cell4": "textures/items/tomato",
+                                "$cell5": "textures/items/tomato",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/guardian_soup"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "squid_rings@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        -37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/cut_tentacles",
+                                "$cell1": "textures/items/wheat_dough",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/squid_rings"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "oceansdelight_recipe_grid_0": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.oceansdelight_recipe_part_0"
+    },
+    "oceansdelight_recipe_part_1": {
+        "type": "panel",
+        "size": [
+            150,
+            38
+        ],
+        "controls": [
+            {
+                "braised_sea_pickle@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        0,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/sea_pickle",
+                                "$cell1": "textures/blocks/mushroom_brown",
+                                "$cell2": "textures/blocks/mushroom_brown",
+                                "$container": "textures/items/bowl",
+                                "$result": "textures/items/braised_sea_pickle"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "oceansdelight_recipe_grid_1": {
+        "type": "grid",
+        "size": [
+            150,
+            38
+        ],
+        "grid_dimensions": [
+            1,
+            1
+        ],
+        "grid_item_template": "cooking_pot.oceansdelight_recipe_part_1"
+    },
+    "recipe_grid_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_back",
+                "value": [
+                    {
+                        "oceansdelight_recipe_grid_0@cooking_pot.oceansdelight_recipe_part_0": {}
+                    },
+                    {
+                        "oceansdelight_recipe_grid_1@cooking_pot.oceansdelight_recipe_grid_1": {}
+                    }
+                ]
+            }
+        ]
+    }
+}

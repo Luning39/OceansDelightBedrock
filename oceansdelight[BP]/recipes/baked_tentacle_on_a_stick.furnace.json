@@ -1,0 +1,16 @@
+{
+    "format_version": "1.17",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "oceansdelight:baked_tentacle_on_a_stick"
+        },
+        "tags": [
+            "furnace",
+            "smoker",
+            "campfire",
+            "soul_campfire"
+        ],
+        "input": "oceansdelight:tentacle_on_a_stick",
+        "output": "oceansdelight:baked_tentacle_on_a_stick"
+    }
+}

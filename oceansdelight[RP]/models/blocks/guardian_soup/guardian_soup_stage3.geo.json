@@ -1,0 +1,264 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.guardian_soup_stage3",
+				"texture_width": 80,
+				"texture_height": 80,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8]
+				},
+				{
+					"name": "plate",
+					"parent": "bone",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [14, 2, 14],
+							"uv": {
+								"north": {"uv": [5, 55], "uv_size": [70, 10], "material_instance": "tray_bottom"},
+								"east": {"uv": [5, 55], "uv_size": [70, 10], "material_instance": "tray_bottom"},
+								"south": {"uv": [5, 55], "uv_size": [70, 10], "material_instance": "tray_bottom"},
+								"west": {"uv": [5, 55], "uv_size": [70, 10], "material_instance": "tray_bottom"},
+								"up": {"uv": [75, 75], "uv_size": [-70, -70], "material_instance": "tray_pie_leftover"},
+								"down": {"uv": [75, 75], "uv_size": [-70, -70], "material_instance": "tray_bottom"}
+							}
+						}
+					]
+				},
+				{
+					"name": "group",
+					"parent": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-6, 3, -8],
+							"size": [12, 12, 2],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"east": {"uv": [14, 16], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"south": {"uv": [16, 16], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"west": {"uv": [28, 16], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"up": {"uv": [16, 14], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [28, 16], "uv_size": [12, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-6, 1, -6],
+							"size": [12, 2, 12],
+							"uv": {
+								"north": {"uv": [28, 52], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [16, 52], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [52, 52], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [40, 52], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [28, 40], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"down": {"uv": [40, 52], "uv_size": [12, -12], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-8, 3, -6],
+							"size": [2, 12, 12],
+							"uv": {
+								"north": {"uv": [12, 40], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 40], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"south": {"uv": [26, 40], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"west": {"uv": [0, 40], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"up": {"uv": [12, 28], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"down": {"uv": [14, 40], "uv_size": [2, -12], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [6, 3, -6],
+							"size": [2, 12, 12],
+							"uv": {
+								"north": {"uv": [14, 40], "uv_size": [-2, 12], "material_instance": "guardian_soup"},
+								"east": {"uv": [12, 40], "uv_size": [-12, 12], "material_instance": "guardian_soup"},
+								"south": {"uv": [28, 40], "uv_size": [-2, 12], "material_instance": "guardian_soup"},
+								"west": {"uv": [12, 40], "uv_size": [-12, 12], "material_instance": "guardian_soup"},
+								"up": {"uv": [14, 28], "uv_size": [-2, 12], "material_instance": "guardian_soup"},
+								"down": {"uv": [16, 40], "uv_size": [-2, -12], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-1, 7.5, -8.25],
+							"size": [2, 2, 1],
+							"uv": {
+								"north": {"uv": [9, 1], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [8, 1], "uv_size": [1, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [12, 1], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [11, 1], "uv_size": [1, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [9, 0], "uv_size": [2, 1], "material_instance": "guardian_soup"},
+								"down": {"uv": [11, 1], "uv_size": [2, -1], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-10.22012, 7, -1.10983],
+							"size": [3, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {"uv": [2, 7], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 7], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [3, 7], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [6, 7], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 5], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 7], "uv_size": [4, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [7.22012, 7, -1.10983],
+							"size": [3, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [4, 2], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [6, 2], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [2, 2], "uv_size": [4, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-0.85355, -1.25305, -1],
+							"size": [2, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"south": {"uv": [6, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"west": {"uv": [4, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 2], "uv_size": [2, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [7.75045, 7, -1.10983],
+							"size": [3, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [4, 2], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [6, 2], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [2, 2], "uv_size": [4, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-10.75045, 7, -1.10983],
+							"size": [3, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {"uv": [2, 6], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 6], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"south": {"uv": [4, 6], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"west": {"uv": [6, 6], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 4], "uv_size": [4, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 6], "uv_size": [4, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-1, -1.51821, -1.25628],
+							"size": [2, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"south": {"uv": [6, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"west": {"uv": [4, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 2], "uv_size": [2, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-1, -0.98788, -0.96339],
+							"size": [2, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [-45, 0, 0],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"south": {"uv": [6, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"west": {"uv": [4, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 2], "uv_size": [2, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-1.14645, -1.25305, -1],
+							"size": [2, 2, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"east": {"uv": [0, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"south": {"uv": [6, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"west": {"uv": [4, 2], "uv_size": [2, 4], "material_instance": "guardian_soup"},
+								"up": {"uv": [2, 0], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [4, 2], "uv_size": [2, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-6, 3, 6],
+							"size": [12, 12, 2],
+							"uv": {
+								"north": {"uv": [44, 16], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"east": {"uv": [14, 16], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"south": {"uv": [44, 16], "uv_size": [12, 12], "material_instance": "guardian_soup"},
+								"west": {"uv": [28, 16], "uv_size": [2, 12], "material_instance": "guardian_soup"},
+								"up": {"uv": [16, 14], "uv_size": [12, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [28, 16], "uv_size": [12, -2], "material_instance": "guardian_soup"}
+							}
+						},
+						{
+							"origin": [-6, 3, -6],
+							"size": [12, 3, 12],
+							"uv": {
+								"north": {"uv": [66, 35], "uv_size": [12, 11], "material_instance": "guardian_soup"},
+								"east": {"uv": [66, 36], "uv_size": [12, 11], "material_instance": "guardian_soup"},
+								"south": {"uv": [66, 36], "uv_size": [12, 11], "material_instance": "guardian_soup"},
+								"west": {"uv": [66, 36], "uv_size": [12, 11], "material_instance": "guardian_soup"},
+								"up": {"uv": [66, 14], "uv_size": [12, -12], "material_instance": "guardian_soup"},
+								"down": {"uv": [66, 14], "uv_size": [12, -12], "material_instance": "guardian_soup"}
+							}
+						}
+					]
+				},
+				{
+					"name": "spine4_rotation",
+					"parent": "group",
+					"pivot": [1, 17, -15],
+					"cubes": [
+						{
+							"origin": [-4.29289, 4.8725, 1.39116],
+							"size": [2, 12, 2],
+							"pivot": [0, 8.79289, -0.375],
+							"rotation": [-22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
+								"east": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
+								"south": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
+								"west": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
+								"up": {"uv": [66, 16], "uv_size": [2, 2], "material_instance": "guardian_soup"},
+								"down": {"uv": [66, 18], "uv_size": [2, -2], "material_instance": "guardian_soup"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

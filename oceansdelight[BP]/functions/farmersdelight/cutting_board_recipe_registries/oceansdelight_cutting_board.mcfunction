@@ -1,0 +1,2 @@
+scriptevent farmersdelight:cutting_board_recipe minecraft:pufferfish
+scoreboard objectives remove farmersdelight_oceansdelight_cutting_board

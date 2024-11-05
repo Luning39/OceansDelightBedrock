@@ -1,0 +1,27 @@
+pack.name=Ocean's Delight[RP]
+pack.description=This addon is ported based on the original Java Edition mod Ocean's Delight and this work is licensed under the GPL License. For 1.21.40+ and FarmersDelightv3.0.0+. Please place it above the main package to load.
+
+tile.oceansdelight:guardian_soup_block=Guardian Soup
+
+item.oceansdelight:baked_tentacle_on_a_stick=Baked Tentacle on a Stick
+item.oceansdelight:guardian_soup_block_item:=Guardian Soup
+item.oceansdelight:guardian_soup=Bowl of Guardian Soup
+item.oceansdelight:braised_sea_pickle=Braised Sea Pickle
+item.oceansdelight:cabbage_wrapped_elder_guardian=Cabbage Wrapped Elder Guardian
+item.oceansdelight:cooked_elder_guardian_slice=Cooked Slice of Elder Guardian
+item.oceansdelight:cooked_guardian_tail=Cooked Guardian Tail
+item.oceansdelight:cooked_stuffed_cod=Cooked Stuffed Cod
+item.oceansdelight:cut_tentacles=Cut Tentacles
+item.oceansdelight:elder_guardian_roll=Roll of Elder Guardian
+item.oceansdelight:elder_guardian_slab=Slab of Elder Guardian
+item.oceansdelight:elder_guardian_slice=Slice of Elder Guardian
+item.oceansdelight:fugu_roll=Fugu Roll
+item.oceansdelight:fugu_slice=Fugu Slice
+item.oceansdelight:guardian=Guardian
+item.oceansdelight:guardian_tail=Guardian Tail
+item.oceansdelight:honey_fried_kelp=Honey Fried Kelp
+item.oceansdelight:seagrass_salad=Seagrass Salad
+item.oceansdelight:squid_rings=Squid Rings
+item.oceansdelight:stuffed_cod=Stuffed Cod
+item.oceansdelight:tentacle_on_a_stick=Tentacle on a Stick
+item.oceansdelight:tentacles=Tentacles
