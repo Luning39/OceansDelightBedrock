@@ -28,31 +28,31 @@
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 0",
                 "components": {
-                    "minecraft:geometry": "geometry.guardian_soup_stage0"
+                    "minecraft:geometry": "geometry.guardian_soup_stage3"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 1",
                 "components": {
-                    "minecraft:geometry": "geometry.guardian_soup_stage1"
+                    "minecraft:geometry": "geometry.guardian_soup_stage2"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 2",
                 "components": {
-                    "minecraft:geometry": "geometry.guardian_soup_stage2"
+                    "minecraft:geometry": "geometry.guardian_soup_stage1"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 3",
                 "components": {
-                    "minecraft:geometry": "geometry.guardian_soup_stage3"
+                    "minecraft:geometry": "geometry.guardian_soup_stage0"
                 }
             },
             {
                 "condition": "query.block_state('farmersdelight:food_block_stage') == 4",
                 "components": {
-                    "minecraft:geometry": "geometry.guardian_soup_leftover"
+                    "minecraft:geometry": "geometry.shepherds_pie_block_leftover"
                 }
             },
             {

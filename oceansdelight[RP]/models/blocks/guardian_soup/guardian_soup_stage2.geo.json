@@ -18,7 +18,7 @@
 				{
 					"name": "plate",
 					"parent": "bone",
-					"pivot": [0, 8, 0],
+					"pivot": [8, 0, -8],
 					"cubes": [
 						{
 							"origin": [-7, 0, -7],
@@ -225,7 +225,7 @@
 						},
 						{
 							"origin": [-6, 3, -6],
-							"size": [12, 6, 12],
+							"size": [12, 9, 12],
 							"uv": {
 								"north": {"uv": [66, 35], "uv_size": [12, 11], "material_instance": "guardian_soup"},
 								"east": {"uv": [66, 36], "uv_size": [12, 11], "material_instance": "guardian_soup"},
@@ -243,10 +243,10 @@
 					"pivot": [1, 17, -15],
 					"cubes": [
 						{
-							"origin": [-0.29289, 4.8725, -3.60884],
+							"origin": [-1.29289, 5.8725, -0.60884],
 							"size": [2, 12, 2],
 							"pivot": [0, 8.79289, -0.375],
-							"rotation": [22.5, 0, 0],
+							"rotation": [0, 0, -45],
 							"uv": {
 								"north": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
 								"east": {"uv": [66, 18], "uv_size": [2, 16], "material_instance": "guardian_soup"},
