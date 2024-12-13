@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "oceansdelight:seagrass_salad"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:seagrass"
+            },
+            {
+                "item": "minecraft:bowl"
+            }
+        ],
+        "result": {
+            "item": "oceansdelight:seagrass_salad"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}
