@@ -81,7 +81,7 @@
                 "braised_sea_pickle@cooking_pot.cooking_pot_recipe": {
                     "texture": "textures/gui/recipe/cooking_recipe",
                     "offset": [
-                        0,
+                        -37.5,
                         0
                     ],
                     "size": [
@@ -96,6 +96,28 @@
                                 "$cell2": "textures/blocks/mushroom_brown",
                                 "$container": "textures/items/bowl",
                                 "$result": "textures/items/braised_sea_pickle"
+                            }
+                        }
+                    ]
+                }
+               },
+            {
+                "honey_fried_kelp@cooking_pot.cooking_pot_recipe": {
+                    "texture": "textures/gui/recipe/cooking_recipe",
+                    "offset": [
+                        37.5,
+                        0
+                    ],
+                    "size": [
+                        75,
+                        38
+                    ],
+                    "controls": [
+                        {
+                            "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
+                                "$cell0": "textures/items/kelp",
+                                "$cell1": "textures/items/honey_bottle",
+                                "$result": "textures/items/honey_fried_kelp"
                             }
                         }
                     ]
