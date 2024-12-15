@@ -5,7 +5,7 @@
             "identifier": "oceansdelight:honey_fried_kelp",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.cookedFood"
+                "group": "itemGroup.name.miscFood"
             }
         },
         "components": {
