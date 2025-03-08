@@ -1,7 +1,7 @@
 pack.name=海洋樂事[資源包]
-pack.description=本模組根據原Java版模組海洋樂事在遵循GPL協議的情況下進行移植。適配1.21.40+，適配農夫樂事v3.0.0+。請置於主包上方加載。
+pack.description=本模組根據原Java版模組海洋樂事在遵循GPL協議的情況下進行移植。適配1.21.60+，適配農夫樂事v3.1.0+。請置於主包上方加載。
 
-teli.oceansdelight:guardian_soup_block=深海守衛濃湯
+tile.oceansdelight:guardian_soup_block=深海守衛濃湯
 
 item.oceansdelight:baked_tentacle_on_a_stick=烤觸手串
 item.oceansdelight:guardian_soup_block_item=深海守衛濃湯
@@ -25,3 +25,5 @@ item.oceansdelight:seagrass_salad=海帶沙拉
 item.oceansdelight:honey_fried_kelp=蜜炒海帶
 item.oceansdelight:cooked_stuffed_cod=熟填料鱈魚
 item.oceansdelight:stuffed_cod=填料鱈魚
+
+oceansdelight:itemGroup.name.oceansdelight=海洋樂事

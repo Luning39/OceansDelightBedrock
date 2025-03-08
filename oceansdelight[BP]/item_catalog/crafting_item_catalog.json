@@ -1,0 +1,42 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "equipment",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "icon": "oceansdelight:guardian_soup_block_item",
+                            "name": "oceansdelight:itemGroup.name.oceansdelight"
+                        },
+                        "items": [
+                            "oceansdelight:cabbage_wrapped_elder_guardian",
+                            "oceansdelight:guardian",
+                            "oceansdelight:cooked_guardian_tail",
+                            "oceansdelight:elder_guardian_slice",
+                            "oceansdelight:honey_fried_kelp",
+                            "oceansdelight:elder_guardian_slab",
+                            "oceansdelight:cooked_stuffed_cod",
+                            "oceansdelight:cut_tentacles",
+                            "oceansdelight:elder_guardian_roll",
+                            "oceansdelight:seagrass_salad",
+                            "oceansdelight:guardian_soup",
+                            "oceansdelight:baked_tentacle_on_a_stick",
+                            "oceansdelight:guardian_soup_block_item",
+                            "oceansdelight:tentacles",
+                            "oceansdelight:stuffed_cod",
+                            "oceansdelight:cooked_elder_guardian_slice",
+                            "oceansdelight:fugu_slice",
+                            "oceansdelight:fugu_roll",
+                            "oceansdelight:braised_sea_pickle",
+                            "oceansdelight:squid_rings",
+                            "oceansdelight:tentacle_on_a_stick",
+                            "oceansdelight:guardian_tail"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

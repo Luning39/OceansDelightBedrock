@@ -6,13 +6,13 @@
         "uuid": "51d3ceb6-8bbb-4a66-a840-3ef372abc068",
         "version": [
             3,
-            1,
-            1
+            2,
+            0
         ],
         "min_engine_version": [
             1,
             21,
-            40
+            60
         ]
     },
     "modules": [
@@ -22,8 +22,8 @@
             "uuid": "c16e631d-53a6-478f-83f7-d0d3bb759ece",
             "version": [
                 3,
-                1,
-                1
+                2,
+                0
             ]
         },
         {
@@ -33,8 +33,8 @@
             "uuid": "4ce0568f-2b9b-46fa-911c-f68985c2a043",
             "version": [
                 3,
-                1,
-                1
+                2,
+                0
             ],
             "entry": "scripts/main.js"
         }
@@ -49,8 +49,8 @@
             "uuid": "bb74cd11-5916-4137-8564-a72d2004a937",
             "version": [
                 3,
-                1,
-                1
+                2,
+                0
             ]
         },
         {
