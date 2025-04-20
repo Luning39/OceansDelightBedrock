@@ -1,5 +1,5 @@
 pack.name=海洋樂事[資源包]
-pack.description=本模組根據原Java版模組海洋樂事在遵循GPL協議的情況下進行移植。適配1.21.60+，適配農夫樂事v3.1.0+。請置於主包上方加載。
+pack.description=本模組根據原Java版模組海洋樂事在遵循GPL協議的情況下進行移植。適配1.21.70+，適配農夫樂事v3.2.0+。請置於主包上方加載。
 
 tile.oceansdelight:guardian_soup_block=深海守衛濃湯
 

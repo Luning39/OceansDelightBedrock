@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/elder_guardian_slice"
 			},
-			"identifier": "farmersdelight:stove_elder_guardian_slice"
+			"identifier": "oceansdelight:stove_elder_guardian_slice"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

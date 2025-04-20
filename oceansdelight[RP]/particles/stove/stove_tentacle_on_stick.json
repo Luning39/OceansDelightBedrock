@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/tentacle_on_a_stick"
 			},
-			"identifier": "farmersdelight:stove_tentacle_on_a_stick"
+			"identifier": "oceansdelight:stove_tentacle_on_a_stick"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

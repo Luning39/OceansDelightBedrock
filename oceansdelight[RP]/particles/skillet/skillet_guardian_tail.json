@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/guardian_tail"
 			},
-			"identifier": "farmersdelight:skillet_guardian_tail"
+			"identifier": "oceansdelight:skillet_guardian_tail"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {

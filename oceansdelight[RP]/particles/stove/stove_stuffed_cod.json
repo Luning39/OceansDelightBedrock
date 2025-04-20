@@ -6,7 +6,7 @@
 				"material": "particles_alpha",
 				"texture": "textures/items/stuffed_cod"
 			},
-			"identifier": "farmersdelight:stove_stuffed_cod"
+			"identifier": "oceansdelight:stove_stuffed_cod"
 		},
 		"components": {
 			"minecraft:emitter_lifetime_once": {
