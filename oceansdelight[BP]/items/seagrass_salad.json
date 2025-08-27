@@ -1,11 +1,11 @@
 {
-    "format_version": "1.20.80",
+    "format_version": "1.21.90",
     "minecraft:item": {
         "description": {
             "identifier": "oceansdelight:seagrass_salad",
             "menu_category": {
                 "category": "equipment",
-                "group": "itemGroup.name.miscFood"
+                "group": "farmersdelight:itemGroup.name.miscFood"
             }
         },
         "components": {
@@ -17,7 +17,8 @@
             "minecraft:food": {
                 "nutrition": 1,
                 "saturation_modifier": 0.25,
-                "can_always_eat": false
+                "can_always_eat": false,
+                "using_converts_to": "minecraft:bowl"
             },
             "minecraft:icon": {
                 "textures": {

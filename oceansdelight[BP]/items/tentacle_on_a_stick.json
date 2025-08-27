@@ -1,11 +1,11 @@
 {
-    "format_version": "1.20.80",
+    "format_version": "1.21.90",
     "minecraft:item": {
         "description": {
             "identifier": "oceansdelight:tentacle_on_a_stick",
             "menu_category": {
-                "category": "equipment",
-                "group": "itemGroup.name.miscFood"
+                "category": "nature",
+                "group": "farmersdelight:itemGroup.name.rawFood"
             }
         },
         "components": {
@@ -25,10 +25,8 @@
                     "default": "oceansdelight:tentacle_on_a_stick"
                 }
             },
-            "minecraft:tags": {
-                "tags": [
-                    "farmersdelight:can_cook"
-                ]
+            "farmersdelight:cookable": {
+                "result": "oceansdelight:baked_tentacle_on_a_stick"
             }
         }
     }

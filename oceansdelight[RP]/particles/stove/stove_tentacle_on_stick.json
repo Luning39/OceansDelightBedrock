@@ -17,13 +17,13 @@
 				"spawn_rate": 1250
 			},
 			"minecraft:emitter_shape_box": {
-				"offset": [0, 0.01563, 0],
-				"half_dimensions": [0, 0.01563, 0],
+				"offset": [0, 0.009375, 0],
+				"half_dimensions": [0, 0.009375, 0],
 				"direction": "outwards"
 			},
 			"minecraft:particle_appearance_billboard": {
 				"facing_camera_mode": "emitter_transform_xz",
-				"size": [0.25, 0.25],
+				"size": [0.15, 0.15],
 				"uv": {
 					"texture_height": 16,
 					"texture_width": 16,

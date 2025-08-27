@@ -1,5 +1,5 @@
 pack.name=Ocean's Delight[RP]
-pack.description=This addon is ported based on the original Java Edition mod Ocean's Delight and this work is licensed under the GPL License. For 1.21.70+ and FarmersDelightv3.2.0+. Please place it above the main package to load.
+pack.description=This addon is ported based on the original Java Edition mod Ocean's Delight and this work is licensed under the GPL License. For 1.21.90+ and FarmersDelightv4.0.0+. Please place it above the main package to load.
 
 tile.oceansdelight:guardian_soup_block=Guardian Soup
 
@@ -29,5 +29,3 @@ item.oceansdelight:seagrass_salad=Seagrass Salad
 item.oceansdelight:honey_fried_kelp=Honey Fried Kelp
 item.oceansdelight:cooked_stuffed_cod=Cooked Stuffed Cod
 item.oceansdelight:stuffed_cod=Stuffed Cod
-
-oceansdelight:itemGroup.name.oceansdelight=Ocean's Delight

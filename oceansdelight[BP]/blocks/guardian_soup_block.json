@@ -1,5 +1,5 @@
 {
-    "format_version": "1.21.0",
+    "format_version": "1.21.90",
     "minecraft:block": {
         "description": {
             "identifier": "oceansdelight:guardian_soup_block",
@@ -105,9 +105,6 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [
-                "farmersdelight:interact"
-            ],
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1.0
             },
@@ -133,6 +130,7 @@
                     "render_method": "alpha_test"
                 }
             },
+            "minecraft:geometry": "geometry.guardian_soup_stage3",
             "minecraft:collision_box": {
                 "origin": [
                     -7.0,
@@ -157,6 +155,7 @@
                     14.0
                 ]
             },
+            "farmersdelight:interact": {},
             "tag:farmersdelight.blockfood:4-item.minecraft:bowl": {},
             "tag:farmersdelight:blockfood": {}
         }

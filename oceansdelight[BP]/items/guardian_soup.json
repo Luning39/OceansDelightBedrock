@@ -1,6 +1,13 @@
 {
-    "format_version": "1.20.80",
+    "format_version": "1.21.90",
     "minecraft:item": {
+        "description": {
+            "identifier": "oceansdelight:guardian_soup",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        },
         "components": {
             "minecraft:use_modifiers": {
                 "use_duration": 1.6
@@ -17,13 +24,6 @@
                 "textures": {
                     "default": "oceansdelight:guardian_soup"
                 }
-            }
-        },
-        "description": {
-            "identifier": "oceansdelight:guardian_soup",
-            "menu_category": {
-                "category": "equipment",
-                "group": "itemGroup.name.miscFood"
             }
         }
     }
