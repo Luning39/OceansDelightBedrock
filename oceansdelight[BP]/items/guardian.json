@@ -14,22 +14,6 @@
                 "textures": {
                     "default": "oceansdelight:guardian"
                 }
-            },
-            "farmersdelight:cuttable": {
-                "loot": [
-                    [
-                        "oceansdelight:guardian_tail",
-                        1
-                    ],
-                    [
-                        "minecraft:bone_meal",
-                        1
-                    ]
-                ],
-                "tool": {
-                    "type": "tag",
-                    "name": "farmersdelight:is_knife"
-                }
             }
         }
     }

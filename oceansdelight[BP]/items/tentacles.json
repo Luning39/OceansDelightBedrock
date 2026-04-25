@@ -28,18 +28,6 @@
                 "tags": [
                     "farmersdelight:raw_calamari"
                 ]
-            },
-            "farmersdelight:cuttable": {
-                "loot": [
-                    [
-                        "oceansdelight:cut_tentacles",
-                        3
-                    ]
-                ],
-                "tool": {
-                    "type": "tag",
-                    "name": "farmersdelight:is_knife"
-                }
             }
         }
     }

@@ -23,22 +23,6 @@
                 "textures": {
                     "default": "oceansdelight:elder_guardian_slab"
                 }
-            },
-            "farmersdelight:cuttable": {
-                "loot": [
-                    [
-                        "oceansdelight:elder_guardian_slice",
-                        9
-                    ],
-                    [
-                        "minecraft:bone_meal",
-                        1
-                    ]
-                ],
-                "tool": {
-                    "type": "tag",
-                    "name": "farmersdelight:is_knive"
-                }
             }
         }
     }

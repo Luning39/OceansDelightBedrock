@@ -1,2 +1,5 @@
-scriptevent farmersdelight:cutting_board_recipe minecraft:pufferfish
+scriptevent farmersdelight:cutting_board_recipe{"ingredients":{"item":"minecraft:pufferfish"},"result":[{"item":"oceansdelight:fugu_slice","count":6},{"item":"minecraft:bone_meal","count":1}],"tool":{"tag":"farmersdelight:is_knife"},"sound":"use.wood"}
+scriptevent farmersdelight:cutting_board_recipe{"ingredients":{"item":"oceansdelight:tentacles"},"result":[{"item":"oceansdelight:cut_tentacles","count":1}],"tool":{"tag":"farmersdelight:is_knife"},"sound":"use.wood"}
+scriptevent farmersdelight:cutting_board_recipe{"ingredients":{"item":"oceansdelight:guardian"},"result":[{"item":"oceansdelight:guardian_tail","count":1},{"item":"minecraft:bone_meal","count":1}],"tool":{"tag":"farmersdelight:is_knife"},"sound":"use.wood"}
+scriptevent farmersdelight:cutting_board_recipe{"ingredients":{"item":"oceansdelight:elder_guardian_slab"},"result":[{"item":"oceansdelight:elder_guardian_slice","count":9},{"item":"minecraft:bone_meal","count":1}],"tool":{"tag":"farmersdelight:is_knife"},"sound":"use.wood"}
 scoreboard objectives remove farmersdelight_oceansdelight_cutting_board
